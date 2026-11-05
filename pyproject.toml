@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "langchain-blockchainiq"
+version = "0.1.0"
+description = "LangChain tools for the Blockchain IQ x402 crypto data API — pay per call in USDC on Base, no API key."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "kittmuse" }]
+keywords = ["langchain", "x402", "crypto", "market-data", "agents", "base", "usdc"]
+dependencies = [
+    "langchain-core>=0.3",
+    "eth-account>=0.13",
+    "requests>=2.32",
+]
+
+[project.optional-dependencies]
+agent = ["langchain>=0.3", "langchain-openai>=0.2"]
+dev = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://www.blockchainiq.co/agents"
+Catalog = "https://www.blockchainiq.co/api/x402/v1"
+
+[tool.setuptools]
+packages = ["langchain_blockchainiq"]
