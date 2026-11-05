@@ -1,0 +1,75 @@
+{
+  "source": "Blockchain IQ",
+  "disclaimer": "Market data and analysis, not investment advice.",
+  "terms": "https://www.blockchainiq.co/terms",
+  "flagCount": 2,
+  "eventCount": 3,
+  "data": {
+    "asOf": "2026-11-05T15:30:24.263Z",
+    "coins": [
+      {
+        "coinId": "bitcoin",
+        "symbol": "BTC",
+        "price": 76378,
+        "change24h": -5.2373,
+        "change7d": -2.5329,
+        "change30d": -9.392,
+        "marketCapRank": 1
+      },
+      {
+        "coinId": "ethereum",
+        "symbol": "ETH",
+        "price": 2276.19,
+        "change24h": -6.66161,
+        "change7d": 0.6662,
+        "change30d": -13.7935,
+        "marketCapRank": 2
+      },
+      {
+        "coinId": "solana",
+        "symbol": "SOL",
+        "price": 90.51,
+        "change24h": -6.31725,
+        "change7d": -7.596,
+        "change30d": -23.1221,
+        "marketCapRank": 7
+      },
+      {
+        "coinId": "ripple",
+        "symbol": "XRP",
+        "price": 1.25,
+        "change24h": -5.19622,
+        "change7d": -0.7819,
+        "change30d": -15.4532,
+        "marketCapRank": 5
+      }
+    ],
+    "events": [
+      {
+        "date": "2026-11-05",
+        "time": null,
+        "title": "Zcash NU7 mainnet activation (25-second blocks)",
+        "category": "Crypto",
+        "importance": 2
+      },
+      {
+        "date": "2026-11-06",
+        "time": "08:30",
+        "title": "US jobs report",
+        "category": "Macro",
+        "importance": 3
+      },
+      {
+        "date": "2026-11-06",
+        "time": null,
+        "title": "Hyperliquid (HYPE) Core Contributors unlock",
+        "category": "Crypto",
+        "importance": 2
+      }
+    ],
+    "flags": [
+      "BTC moved -5.2% in 24h",
+      "1 high-importance event in the next 48h: US jobs report (2026-11-06 08:30 ET)"
+    ]
+  }
+}
